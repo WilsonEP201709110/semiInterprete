@@ -1,0 +1,13 @@
+npm init -y 													//Iniciar un proyecto en nodejs -> Nos crea el archivo pacjage.jison
+
+npm install express morgan cors body-parser jison nodemon       //Instalamos las siguientes librerias
+
+npm i typescript												// Tambien la libreria typescript
+
+
+npx tsc --init  											 	//Crear el archivo tconfing.jison
+
+tsc 															//compilar de typescript a javascript
+
+
+jison "Nombre Archivo Jison"  									// Para ejecutar la gramatica jison
