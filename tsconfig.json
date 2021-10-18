@@ -103,9 +103,18 @@
     "./interprete_TS/TableSymbol/Symbol",
     "./interprete_TS/TableSymbol/Environment",
     "./interprete_TS/Instrucciones/WriteLine",
+    "./interprete_TS/Instrucciones/Bloc",
+    "./interprete_TS/Expression/Access",
+    "./interprete_TS/Expression/CallFunc",
     "./interprete_TS/Expression/Primitive",
     "./interprete_TS/Expression/Aritmethic",
+    "./interprete_TS/Expression/Relational",
     "./interprete_TS/Abstract/Expression",
-    "./interprete_TS/Abstract/Instruction"
+    "./interprete_TS/Abstract/Instruction",
+    "./interprete_TS/Instrucciones/Variables/Declaracion",
+    "./interprete_TS/Instrucciones/Function/Function",
+    "./interprete_TS/Instrucciones/Function/Param",
+    "./interprete_TS/Instrucciones/Function/ReturnF",
+    "./interprete_TS/Instrucciones/Condicional/If"
   ]
 }

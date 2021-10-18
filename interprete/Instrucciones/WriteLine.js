@@ -9,7 +9,7 @@ class WriteLine extends Instruction_1.Instruction {
     }
     execute(environment) {
         let expresion = this.value.execute(environment);
-        return expresion.getValue() + "\n";
+        console.log(expresion.getValue());
     }
 }
 exports.default = WriteLine;

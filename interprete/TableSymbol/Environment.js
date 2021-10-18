@@ -37,6 +37,26 @@ class Environment {
         }
         return null;
     }
+    /**===== Para las funciones =====================*/
+    getTableFunc() {
+        return this.tableFunc;
+    }
+    /*guardar funcion */
+    setFunc(idFunc, functio) {
+        if (this.tableFunc.has(idFunc)) {
+            console.log("la funcion ya existe");
+            return;
+        }
+        this.tableFunc.set(idFunc, functio);
+    }
+    /**obtener funcion */
+    getFunc(idFunc) {
+        if (this.getGloval().getTableFunc().has(idFunc)) {
+            return this.getGloval().getTableFunc().get(idFunc);
+        }
+        return null;
+    }
+    /**===== ============================================================*/
     getGloval() {
         for (let e = this; e != null; e = e.getPrevious()) {
             if (e.getPrevious() == null)

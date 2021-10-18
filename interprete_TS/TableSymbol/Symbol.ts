@@ -13,4 +13,15 @@ export default class Symbol{
         this.tipo = tipo;
     }
 
+    public getValorSymbol():any{
+        return this.valor;
+    }
+
+    public getTypeSymbol():Type{
+        return this.tipo
+    }
+
+    public getidVarSymbol():String{
+        return this.idVar;
+    }
 }

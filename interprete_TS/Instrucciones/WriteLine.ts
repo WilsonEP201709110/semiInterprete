@@ -10,6 +10,6 @@ export default class WriteLine extends Instruction{
 
     public execute(environment:Environment){
         let expresion = this.value.execute(environment);
-        return expresion.getValue() + "\n";
+        console.log(expresion.getValue());
     }
 }

@@ -2,7 +2,11 @@ export enum Type{
     ENTERO,
     STRING,
     BOOLEAN,
-    DOUBLE
+    DOUBLE,
+    NULO,
+    RETURN,
+    BREAK,
+    CONTINUE
 }
 
 
